@@ -988,7 +988,6 @@ button:focus {
     margin: 0;
     width: auto;
     max-height: 622px;
-    height: auto;
     margin-top: 30px;
   }
 }
@@ -997,14 +996,12 @@ button:focus {
   .team__img {
     margin: 15px;
     width: calc((100% - 2 * 30px) / 2);
-    height: 536px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team__img {
     width: 270px;
-    height: 428px;
   }
 }
 
@@ -1041,21 +1038,18 @@ button:focus {
 @media screen and (max-width: 767px) {
   .img {
     width: 100%;
-    height: 460px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .img {
     width: 100%;
-    height: 374px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .img {
     width: 100%;
-    height: 260px;
   }
 }
 
@@ -1096,14 +1090,18 @@ button:focus {
 @media screen and (max-width: 767px) {
   .social__link {
     margin-bottom: 24px;
-    margin: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
   .social__link {
     margin-bottom: 24px;
-    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social__link {
+    margin-bottom: 30px;
   }
 }
 
