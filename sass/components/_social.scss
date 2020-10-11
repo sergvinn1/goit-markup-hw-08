@@ -1,0 +1,48 @@
+.social {
+    margin-right: 10px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:not(:last-child) {
+    margin-right: 10px;
+    }
+    &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    width: 44px;
+    height: 44px;
+    background-color: $primary-white-color;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    fill: #AFB1B8; 
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and(max-width: 767px) {
+        margin-bottom: 24px;
+        margin: 0;
+    }
+    @media screen and(min-width: 768px) {
+        margin-bottom: 24px;
+        margin: 0;
+    }
+    }
+    &__link:hover {
+        background-color: $accent-color;
+        fill: $primary-white-color;
+    }
+    &__icon {
+        width: 20px;
+        height: 20px;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;   
+        @media screen and(max-width: 767px) {
+            margin: 0;
+        } 
+        @media screen and(min-width: 768px) {
+            margin: 0;
+        } 
+        }  
+    }

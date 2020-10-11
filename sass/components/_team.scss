@@ -1,0 +1,110 @@
+.caption__second {
+    
+    color: $primary-text-color;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    @media screen and(min-width: 768px) {
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 1.17;
+    }  
+    @media screen and(min-width: 1200px) {
+        margin-bottom: 30px;
+        font-size: 36px;
+        line-height: 1.16;
+      }
+}
+.team {
+    
+    @media screen and(max-width: 767px) {
+        display: block;
+    }
+        @media screen and(min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px; 
+        }
+        @media screen and(min-width: 1200px) {
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
+   
+    &__img {
+        margin-right: 30px;
+        background-color: #fff;
+        
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        justify-content: center;
+        @media screen and(max-width: 767px) {
+            display: block;
+            margin: 0;
+            width: 100%;
+            height: 622px;
+            margin-top: 30px;
+        }
+        @media screen and(min-width: 768px) {
+            margin: 15px;
+            width: calc((100% - 2 * 30px) / 2);
+            height: 536px;
+        }
+        @media screen and(min-width: 1200px) {
+            width: 270px;
+            height: 428px;
+            
+        }
+        
+    }
+    &__img:last-child {
+        margin-right: 0px;
+    }
+    &__item {
+        margin: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &__proffesion {
+        display: inline-block;
+        color: var(--title-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 16px;  
+    }
+    &__name {
+        color: $primary-text-color;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
+.img {
+    @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 460px;
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 100%;
+        height: 374px;
+    }
+
+    @media screen and(min-width: 1200px) {
+    width: 100%;
+    height: 260px;
+}
+
+
+}
+
+
+

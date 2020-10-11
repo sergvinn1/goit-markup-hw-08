@@ -1,0 +1,36 @@
+.character {
+    @media screen and(max-width: 767px) {
+        margin-bottom: 20px;
+        display: block;
+         text-align: center;
+         width: auto;
+       }
+       @media screen and(min-width: 768px) {
+        margin-bottom: 20px;
+        display: block;
+         text-align: center;
+         width: 232px;
+       }
+
+       @media screen and(min-width: 1200px) {
+        margin-bottom: 20px;
+        display: inline-block;
+         text-align: left;
+         width: 232px;
+       }
+    &__header {
+        color: #2196F3;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        
+    }
+    &__footer {
+        color: $primary-white-color;
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+}

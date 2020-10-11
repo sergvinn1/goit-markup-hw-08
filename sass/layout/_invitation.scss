@@ -1,0 +1,37 @@
+.invitation {
+    margin-right: 93px;
+    @media screen and(max-width: 767px) {
+        margin: 0;
+        margin-top: 60px;
+        
+    }
+    @media screen and(min-width: 768px) {
+        margin-right: 89px;
+        margin-top: 65px;
+    }
+    @media screen and(min-width: 1200px) {
+        margin: 0;
+        margin-right: 93px;
+    }
+    &__item {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: $primary-white-color;
+        margin: 0px;
+        @media screen and(max-width: 477px) {
+            display: block;
+            text-align: center;
+            width: auto;
+        }
+        @media screen and(max-width: 1199px) {
+            display: block;
+            text-align: center;
+        }
+        @media screen and(min-width: 1200px) {
+            display: flex;
+            text-align: left;
+        }
+    }
+}

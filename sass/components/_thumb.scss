@@ -1,0 +1,99 @@
+.advantages {
+    
+    @media screen and(max-width: 767px) {
+        display: block;
+    }
+    @media screen and(min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px; 
+    }
+    @media screen and(min-width: 1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+.tumb::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-bottom: 30px;
+    justify-content: center;    
+  
+}
+
+.tumb:nth-child(1)::before {
+    background-image: url(../images/antenna-1.svg);
+} 
+
+.tumb:nth-child(2)::before {
+    background-image: url(../images/clock-1.svg);
+}
+
+.tumb:nth-child(3)::before {
+    background-image: url(../images/diagram-1.svg);
+}
+
+.tumb:nth-child(4)::before {
+    background-image: url(../images/astronaut-1.svg);
+}
+
+.icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    
+}
+
+.tumb {
+    
+    @media screen and(max-width: 767px) {
+        margin-right: 0;
+    }
+    @media screen and(min-width: 768px) {
+        margin: 15px;
+        width: calc((100% - 2 * 30px) / 2);
+     }
+     @media screen and(min-width: 1200px) {
+        display: inline-block;
+        width: calc((100% - 4 * 30px) / 4);
+        width: 270px;
+        height: 251px;
+     }
+  
+
+    &__title {
+        color: $primary-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        margin: 0px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        @media screen and(max-width: 767px) {
+            text-align: center;
+            }
+            @media screen and(min-width: 768px) {
+                text-align: left;
+                }
+    }
+    &__text {
+        color: $title-text-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 0;
+        @media screen and(max-width: 767px) {
+            margin-bottom: 30px;
+            }
+            @media screen and(min-width: 768px) {
+                margin-bottom: 0;
+                }
+        }
+    }

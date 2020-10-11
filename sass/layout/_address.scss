@@ -1,0 +1,55 @@
+.address {
+    
+    @media screen and(max-width: 767px) {
+        margin-right: 0px;
+       
+     } 
+     @media screen and(min-width: 768px) {
+            width: 232px;
+            margin-right: 165px;
+            margin-top: 60px;
+     }  
+     @media screen and(min-width: 1200px) {
+        display: block;
+        margin: 0;
+        margin-right: 70px;
+ }  
+     
+    &__footer {
+        display: block;
+        font-family: roboto, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #FFFFFF;
+        @media screen and(max-width: 767px) {
+           text-align: center;
+           margin: 0;
+           width: auto;
+        }   
+        @media screen and(min-width: 768px) {
+            text-align: center;
+            margin: 0;
+            width: 232px;
+         }   
+         @media screen and(min-width: 1200px) {
+            text-align: left;
+            margin: 0;
+            width: 232px;
+
+         } 
+    }
+    &__item {
+        display: block;
+        margin-top: 9px;
+    }
+    &__contacts {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+}
