@@ -4,10 +4,10 @@
         display: none;
     }
     &__filtres {
+        display: flex;
         @media screen and(max-width: 767px) {
             flex-wrap: wrap;
-            margin-bottom: -15px;
-            justify-content: left;
+            margin-bottom: 15px;
          }  
         @media screen and(min-width: 768px) {
         display: flex; 
@@ -21,6 +21,9 @@
         margin-bottom: 15px;
     }
     &__item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
         padding: 6px 22px;
         background: #F5F4FA;
         border-radius: 4px;

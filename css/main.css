@@ -405,19 +405,19 @@ button:focus {
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button .icon__cross {
+  .menu__button .icon__menu {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button.is-open .icon__cross {
+  .menu__button.is-open .icon__menu {
     display: block;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button.is-open .icon__menu {
+  .menu__button.is-open .icon__cross {
     display: none;
   }
 }

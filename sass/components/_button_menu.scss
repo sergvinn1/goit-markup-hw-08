@@ -20,19 +20,19 @@
         display: none;
     }
 }
-.menu__button .icon__cross {
+.menu__button .icon__menu {
     @media screen and(max-width: 767px){
         display: none;  
     } 
 }
 
-.menu__button.is-open .icon__cross {
+.menu__button.is-open .icon__menu {
     @media screen and(max-width: 767px){
         display: block;  
     } 
 }
 
-.menu__button.is-open .icon__menu {
+.menu__button.is-open .icon__cross {
     @media screen and(max-width: 767px){
     display: none;
 }

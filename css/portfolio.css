@@ -224,19 +224,19 @@ button:focus {
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button .icon__cross {
+  .menu__button .icon__menu {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button.is-open .icon__cross {
+  .menu__button.is-open .icon__menu {
     display: block;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .menu__button.is-open .icon__menu {
+  .menu__button.is-open .icon__cross {
     display: none;
   }
 }
@@ -570,14 +570,17 @@ button:focus {
   display: none;
 }
 
+.heading__filtres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   .heading__filtres {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: -15px;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
+    margin-bottom: 15px;
   }
 }
 
@@ -599,6 +602,9 @@ button:focus {
 }
 
 .heading__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   padding: 6px 22px;
   background: #F5F4FA;
   border-radius: 4px;
@@ -704,6 +710,12 @@ button:focus {
           transform: translateY(101%);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 479px) {
+  .cart__action {
+    font-size: 3.8vw;
+  }
 }
 
 .cart__images:hover {
